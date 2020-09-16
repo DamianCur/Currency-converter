@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+
+
+
+<body class="body">
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__h1">Kantor</h1>
+        </div>
+    </header>
+    <main class="main">
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Wymień Walutę</legend>
+                <div class="form__container">
+                    <p class="form__paragraph">
+                        <label>
+                            <span class="form__labelText">Podaj ilość(PLN)<strong
+                                    class="form__labelText--required">*</strong>:</span>
+                            <input class="form__input js-input" type="number" min="1" required>
+                        </label>
+                    </p>
+                    <p class="form__paragraph">
+                        <label>
+                            <span class="form__labelText">Wybierz walutę<strong
+                                    class="form__labelText--required">*</strong>:</span>
+                            <select class="form__select form__input js-currency" name="currencyWant" required>
+                                <option value="" selected></option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                            </select>
+                        </label>
+                    <p class="form__paragraphRequired form__labelText--required">Wymagane pola oznaczono *</p>
+                    </p>
+                    <div class="form__containerButton">
+                        <button class="form__button">Przelicz!</button>
+                    </div>
+                    <p class="form__paragraph">Otrzymasz: <span class="js-score"></span></p>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

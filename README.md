@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://xoriston.github.io/Currency-converter/
+https://damiancur.github.io/Currency-converter/
 
 ### Description 
 

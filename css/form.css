@@ -5,6 +5,7 @@
     border: 1px solid teal;
     padding: 30px;
     border-radius: 3px;
+    background-color: rgb(204, 204, 204);
 }
 
 .form__labelText {

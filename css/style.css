@@ -9,7 +9,7 @@ html {
 .body {
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #eeeeee;
+    background-size: cover;    
     background-image: url("../img/background_test.png");
     font-family: 'Lato', sans-serif;
     font-size: 25px;
